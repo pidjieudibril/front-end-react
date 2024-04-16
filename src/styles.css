@@ -1,0 +1,150 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+  
+
+/* Exemple de styles personnalisés */
+body {
+  position: relative;
+
+}
+
+body::before {
+  content: '';
+  position: fixed; /* Position fixe pour couvrir toute la fenêtre */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('bg2.jpg');
+  background-size: cover; /* Pour que l'image couvre toute la zone */
+  opacity: 0.8; /* Valeur de l'opacité (entre 0 et 1) */
+  z-index: -1; /* Assure que l'élément pseudo-classe est derrière le contenu */
+}
+
+
+  
+  .container {
+    margin-top: 29px;
+    background-color: #007bff;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .footer-logo {
+    max-width: 150px; /* ajustez cette valeur selon vos besoins */
+    max-height: 100px; /* ajustez cette valeur selon vos besoins */
+  }
+  
+
+/* navbar*/
+.navbar-brand {
+  order: -1; /* Place le logo à gauche */
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold; /* Met en gras le texte des liens */
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: #fff !important; /* Texte en blanc pour les onglets sélectionnés et survolés */
+  background-color: rgba(0, 123, 255, 0.7) !important; /* Fond bleu transparent */
+  border-radius: 10px; /* Border radius arrondi */
+  padding: 10px 15px; /* Ajustement de la taille du padding */
+}
+
+.navbar-nav .nav-item:not(.active) .nav-link {
+  color: #007bff !important; /* Texte bleu pour les autres onglets */
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9); /* Arrière-plan transparent */
+}
+
+.navbar-nav {
+  justify-content: flex-end; /* Place les onglets à droite */
+  margin-left: 160px;
+}
+
+.navbar-brand {
+  margin-right: auto; /* Éloigne le logo de l'extrémité droite */
+  
+}
+
+.appareils-container {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.appareils-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.appareil-item {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  
+}
+
+.val:hover {
+  background-color: lightblue;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn-update {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+
+.table-row:hover {
+  background-color: lightblue;
+}
+h2 {
+  text-align: center;
+ padding: 30px;
+ font-size: 50px !important;
+ font-weight: bold !important;
+}
+
+.table1 {
+  display: flex;
+}
+
+.column {
+  flex: 2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 200px;
+}

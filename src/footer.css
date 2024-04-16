@@ -1,0 +1,20 @@
+.footer-logo {
+    max-width: 150px; /* ajustez cette valeur selon vos besoins */
+    max-height: 100px; /* ajustez cette valeur selon vos besoins */
+  }
+  
+
+
+
+
+
+
+footer {
+  
+    width: 100%;
+    bottom: 0;
+ margin-top: 500px;
+}
+
+
+/* Styles pour le footer */
